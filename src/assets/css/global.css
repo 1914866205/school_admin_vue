@@ -1,0 +1,23 @@
+  >>> .el-input__inner {
+    height: 30px;
+  }
+  
+  >>> .el-icon-edit {
+    color: white;
+  }
+  
+  >>>.el-icon-plus {
+    color: white;
+  }
+  
+  >>> .el-icon-delete {
+    color: white;
+  }
+  
+  >>> .el-icon-download {
+    color: white;
+  }
+  
+  >>> .el-icon-search {
+    color: white;
+  }

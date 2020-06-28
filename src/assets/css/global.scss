@@ -1,0 +1,205 @@
+$red:#f56c6c;
+$blue: #409eff;
+$green: #42d885;
+$orange: #ebb563;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//背景颜色
+.bg-red {
+    background-color: $red;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.bg-orange {
+    background-color: $orange;
+}
+
+.light-font-color {
+    color: #f7fbff;
+}
+
+//字体
+.light-mini-font {
+    font-size: 10px;
+    color: white;
+}
+
+.light-small-font {
+    color: white;
+    font-size: 12px;
+}
+
+.light-medium-font {
+    color: white;
+    font-size: 14px;
+}
+
+.light-large-font {
+    color: white;
+    font-size: 18px;
+}
+
+.dark-mini-font {
+    font-size: 10px;
+    color: #606266;
+}
+
+.dark-small-font {
+    color: #606266;
+    font-size: 12px;
+}
+
+.dark-medium-font {
+    color: #606266;
+    font-size: 14px;
+}
+
+.dark-large-font {
+    color: #606266;
+    font-size: 18px;
+}
+
+//粗字体
+.fw {
+    font-weight: 600;
+}
+
+.fc-h {
+    color: #606266;
+}
+
+//布局
+//水平左对齐
+
+//水平居中，垂直居中
+.df-jc-ac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//水平左对齐，垂直居中
+.df-jl-ac {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+//水平右对齐，垂直居中
+.df-jr-ac {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+//水平两端对齐，垂直居中
+.df-jb-ac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+//水平居中，垂直下对齐
+.df-jc-ab {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+//垂直对齐，垂直居中
+.dc-jc-ac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+//边距
+// @mixin margin($direction ,$distance) {
+//     margin-$direction: $direction ;    
+// }
+
+//右外边距5像素
+.mr-5 {
+    margin-right: 5px;
+}
+//右外边距10像素
+.mr-10 {
+    margin-right: 10px;
+}
+//右外边距20像素
+.mr-20 {
+    margin-right: 20px;
+}
+//左外边距5像素
+.ml-5 {
+    margin-left: 5px;
+}
+//左外边距10像素
+.ml-10 {
+    margin-left: 10px;
+}
+//右外边距20像素
+.ml-20 {
+    margin-left: 20px;
+}
+//右外边距5像素
+.mt-5 {
+    margin-top: 5px;
+}
+//右外边距10像素
+.mt-10 {
+    margin-top: 10px;
+}
+//右外边距20像素
+.mt-20 {
+    margin-top: 20px;
+}
+
+.p-a-20 {
+    padding: 20px 20px;
+}
+
+//文本居中
+.tc {
+    text-align: center;
+}
+//文本左对齐
+.tl {
+    text-align: left;
+}
+//文本右对齐
+.tr {
+    text-align: right;
+}
+//宽高100%
+.wh-all {
+    height: 100%;
+    width: 100%;
+}
+
+.text-ellipsis {
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    white-space:nowrap
+}
+
+//dialog属性
+.dialog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.7);
+  }
